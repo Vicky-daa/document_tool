@@ -2,3 +2,7 @@ env
 .env
 instrucutions.md
 .vscode
+document_portal.egg-info
+__pycache__/
+logs/
+*.pyc
