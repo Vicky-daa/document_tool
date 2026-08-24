@@ -6,4 +6,5 @@ python-dotenv
 ipykernel
 langchain_groq
 faiss-cpu
+langchain_google_genai
 -e .
