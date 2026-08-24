@@ -7,4 +7,5 @@ ipykernel
 langchain_groq
 faiss-cpu
 langchain_google_genai
+structlog
 -e .
