@@ -6,3 +6,5 @@ document_portal.egg-info
 __pycache__/
 logs/
 *.pyc
+config/config_bak.yaml
+data/
