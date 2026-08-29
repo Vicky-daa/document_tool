@@ -8,3 +8,4 @@ logs/
 *.pyc
 config/config_bak.yaml
 data/
+test_fill_code.py

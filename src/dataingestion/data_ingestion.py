@@ -169,9 +169,7 @@ class ChatIngestor:
             self.log.error("Failed to build retriever", error=str(e))
             raise DocumentPortalException("Failed to build retriever", e) from e
 
-            
-        
-            
+
 class DocHandler:
     """
     PDF save + read (page-wise) for analysis.
