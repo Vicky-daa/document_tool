@@ -1,11 +1,49 @@
-env
-.env
-instrucutions.md
-.vscode
-document_portal.egg-info
+# Python cache & virtualenv
 __pycache__/
-logs/
-*.pyc
-config/config_bak.yaml
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+env/
+venv/
+*.egg-info/
+*.egg
+*.log
+
+# OS & editor files
+.DS_Store
+.vscode/
+.idea/
+
+# LangChain-related
+faiss_index_multi/
+faiss_index/
+*.faiss
+*.pkl
+
+# Data & archive
 data/
+archive/
+main_archive/
+*.pdf
+
+# Secrets & configs
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# Build/Dist
+dist/
+build/
+document_portal.egg-info/
+
+src/dataingestion/data_ingestion_bkup.py
 test_fill_code.py
+src_bkup/
+requirements_bkup.txt
+streamlit.py
+instrucutions.md
+config/config_bak.yaml
